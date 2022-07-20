@@ -1,3 +1,4 @@
+/*------------------- google fonts ---------------*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
@@ -10,7 +11,7 @@ body {
     box-sizing: border-box;
 }
 
-/* css styles detail */
+/*--------------------- css styles detail ------------------------------*/
 
 :root {
     --button-bg-color: #DD0000;
@@ -19,7 +20,7 @@ body {
     --icon-color: rgb(22, 22, 22.8) 80%;
 }
 
-/* header styles */
+/*---------------------- header starts ---------------------*/
 
 header {
     display: flex;
@@ -79,13 +80,12 @@ header .container .header-image-part img {
     margin-top: 20px;
 }
 
-/* main styles */
+/*------------------------ main starts -----------------------*/
 
 main {
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 .container-part-two {
@@ -93,13 +93,15 @@ main {
     margin-bottom: 70px;
 }
 
-.blogs,
+.container-part-two .blogs,
 .match {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.button-link {
+/*------------- button-link starts --------------*/
+
+.container-part-two .button-link {
     max-width: 300px;
     height: 300px;
     background-color: var(--text-color);
@@ -110,7 +112,7 @@ main {
 
 }
 
-.button-link .link-button {
+.container-part-two .button-link .link-button {
     text-decoration: none;
     text-align: center;
     color: var(--text-color);
@@ -123,19 +125,21 @@ main {
 
 }
 
-.button-link .link-button:hover {
+.container-part-two .button-link .link-button:hover {
     background-color: var(--button-bg-color);
     color: white;
 }
 
-.blogs-card {
+/*------------------------ blog-info starts -----------------------*/
+
+.container-part-two .blogs-card {
     width: 313px;
     height: 368px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
 }
 
-.blog-info,
+.container-part-two .blog-info,
 .match-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -143,12 +147,12 @@ main {
     margin-top: 70px;
 }
 
-.blog-author {
+.container-part-two .blog-author {
     margin-top: 24px;
     margin-left: 18px;
 }
 
-.blog-author a {
+.container-part-two .blog-author a {
     text-decoration: none;
     font-size: 16px;
     color: var(--text-color);
@@ -159,7 +163,7 @@ main {
 
 }
 
-.blog-author .blog-live {
+.container-part-two .blog-author .blog-live {
     color: var(--text-color);
     font-size: 18px;
     font-weight: 600;
@@ -167,21 +171,23 @@ main {
     margin-bottom: 20px;
 }
 
-.blog-author .icons {
+.container-part-two .blog-author .icons {
     color: #7f7d7d;
 }
 
-.blog-author span {
+.container-part-two .blog-author span {
     margin-right: 20px;
 }
 
-.blog-author span .fa-clock {
+.container-part-two .blog-author span .fa-clock {
     margin-right: 10px;
 }
 
-.blog-author span .fa-message {
+.container-part-two .blog-author span .fa-message {
     margin-right: 10px;
 }
+
+/*--------------------- button starts ----------------------*/
 
 .link-button-two {
     margin-bottom: 70px;
@@ -202,7 +208,7 @@ main {
     background-color: darkolivegreen;
 }
 
-/* match content starts */
+/*--------------------- match content starts ------------------------*/
 
 .match-info {
     text-align: center;
@@ -239,10 +245,8 @@ main {
     color: #4D4D4D;
 }
 
-/* match content starts */
 
-
-/* group content starts */
+/*---------------------- group content starts ------------------------*/
 
 .match-author a {
     text-decoration: none;
@@ -278,12 +282,13 @@ main {
     margin-right: 10px;
 }
 
-/* group content ends */
-
+/*---------------------- link-button starts -----------------------*/
 
 .link-button-two {
     display: none;
 }
+
+/*---------------------- footer starts --------------------------*/
 
 footer {
     background-color: var(--text-color);
@@ -350,3 +355,5 @@ footer .icon-link ul a .filled:hover {
     color: deeppink;
 
 }
+
+/*---------------------- footer ends --------------------------*/
