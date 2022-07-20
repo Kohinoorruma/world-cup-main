@@ -48,6 +48,7 @@ header .container .header-text-part {
 header .container .header-text-part h1 {
     color: white;
     font-size: 35px;
+    font-weight: 700;
 }
 
 header .container .header-text-part p {
@@ -63,6 +64,11 @@ header .container .header-text-part .link-button {
     background-color: var(--button-bg-color);
     padding: 10px 20px;
     border-radius: 25px;
+    transition: all linear 0.4s;
+}
+
+header .container .header-text-part .link-button:hover {
+    background-color: darkolivegreen;
 }
 
 header .container .header-text-part .link-button .fa-angle-right {
@@ -73,26 +79,31 @@ header .container .header-image-part img {
     margin-top: 20px;
 }
 
+/* main styles */
+
 main {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 .container-part-two {
     width: 1321px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
-.blogs {
+.blogs,
+.match {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .button-link {
-    width: 300px;
+    max-width: 300px;
     height: 300px;
     background-color: var(--text-color);
-    margin-top: 100px;
+    margin-top: 70px;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     border-radius: 10px;
@@ -108,7 +119,13 @@ main {
     padding-top: 20px;
     border-radius: 20px;
     font-size: 20px;
+    transition: all linear 0.4s;
 
+}
+
+.button-link .link-button:hover {
+    background-color: var(--button-bg-color);
+    color: white;
 }
 
 .blogs-card {
@@ -118,11 +135,12 @@ main {
     border-radius: 10px;
 }
 
-.blog-info {
+.blog-info,
+.match-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .blog-author {
@@ -163,6 +181,108 @@ main {
 
 .blog-author span .fa-message {
     margin-right: 10px;
+}
+
+.link-button-two {
+    margin-bottom: 70px;
+}
+
+.link-button-two a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: var(--button-bg-color);
+    padding: 12px 29px;
+    border-radius: 10px;
+    transition: all linear 0.4s;
+}
+
+.link-button-two a:hover {
+    background-color: darkolivegreen;
+}
+
+/* match content starts */
+
+.match-info {
+    text-align: center;
+}
+
+.match-card {
+    width: 312px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding-top: 50px;
+
+}
+
+.match-card .image-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-card .image-part h4 {
+    padding: 0px 18px;
+}
+
+.match-author {
+    padding-top: 25px;
+}
+
+.match-author .match-live .match-card h3 {
+    padding-bottom: 8px;
+}
+
+.match-author p {
+    color: #4D4D4D;
+}
+
+/* match content starts */
+
+
+/* group content starts */
+
+.match-author a {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 500;
+    border: 1px solid var(--text-color);
+    padding: 4px 16px;
+    border-radius: 5px;
+}
+
+.match-author .group-live {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.match-author .icons {
+    color: #7f7d7d;
+}
+
+.match-author span {
+    margin-right: 20px;
+}
+
+.match-author span .fa-clock {
+    margin-right: 10px;
+}
+
+.match-author span .fa-message {
+    margin-right: 10px;
+}
+
+/* group content ends */
+
+
+.link-button-two {
+    display: none;
 }
 
 footer {
