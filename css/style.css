@@ -106,7 +106,7 @@ section {
     color: var(--text-color);
     background-color: white;
     margin: 15px 23px;
-    padding-top: 22px;
+    padding-top: 20px;
     border-radius: 20px;
     font-size: 20px;
 
@@ -114,7 +114,7 @@ section {
 
 .blogs-card {
     width: 313px;
-    height: 362px;
+    height: 368px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
 }
@@ -126,6 +126,11 @@ section {
     margin-top: 20px;
 }
 
+.blog-author {
+    margin-top: 24px;
+    margin-left: 18px;
+}
+
 .blog-author a {
     text-decoration: none;
     font-size: 16px;
@@ -134,14 +139,29 @@ section {
     border: 1px solid var(--text-color);
     padding: 4px 16px;
     border-radius: 5px;
+
 }
 
 .blog-author .blog-live {
     color: var(--text-color);
     font-size: 18px;
     font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 20px;
 }
 
-.blog-author i {
-    color: #979696;
+.blog-author .icons {
+    color: #7f7d7d;
+}
+
+.blog-author span {
+    margin-right: 20px;
+}
+
+.blog-author span .fa-clock {
+    margin-right: 10px;
+}
+
+.blog-author span .fa-message {
+    margin-right: 10px;
 }
