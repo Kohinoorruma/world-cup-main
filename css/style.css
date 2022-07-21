@@ -28,28 +28,28 @@ header {
 }
 
 .container {
-    width: 1321px;
-    height: 370px;
+    width: 1200px;
+    height: 380px;
     background-color: var(--text-color);
     margin-top: 20px;
     border-radius: 15px;
 }
 
 .container .headers {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 26px;
-    padding: 10px 0px 0px 75px;
+    display: flex;
+    padding: 0px 75px 0px 75px;
 }
 
 header .container .header-text-part {
-    margin-top: 35px;
+    margin-top: 70px;
+    margin-left: 30px;
 }
 
 header .container .header-text-part h1 {
     color: white;
     font-size: 35px;
     font-weight: 700;
+
 }
 
 header .container .header-text-part p {
@@ -57,6 +57,7 @@ header .container .header-text-part p {
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 23px;
+    padding: 0px 400px 0px 0px;
 }
 
 header .container .header-text-part .link-button {
@@ -77,7 +78,8 @@ header .container .header-text-part .link-button .fa-angle-right {
 }
 
 header .container .header-image-part img {
-    margin-top: 20px;
+    margin-top: 40px;
+
 }
 
 /*------------------------ main starts -----------------------*/
@@ -89,7 +91,7 @@ main {
 }
 
 .container-part-two {
-    width: 1321px;
+    width: 1200px;
     margin-bottom: 70px;
 }
 
@@ -102,14 +104,14 @@ main {
 /*------------- button-link starts --------------*/
 
 .container-part-two .button-link {
-    max-width: 300px;
-    height: 300px;
+    max-width: 250px;
+    height: 250px;
     background-color: var(--text-color);
     margin-top: 70px;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     border-radius: 10px;
-
+    margin-right: 10px;
 }
 
 .container-part-two .button-link .link-button {
@@ -117,8 +119,8 @@ main {
     text-align: center;
     color: var(--text-color);
     background-color: white;
-    margin: 15px 23px;
-    padding-top: 20px;
+    margin: 10px 20px;
+    padding-top: 12px;
     border-radius: 20px;
     font-size: 20px;
     transition: all linear 0.4s;
