@@ -394,7 +394,6 @@ footer .icon-link ul a .filled:hover {
         width: 734px;
     }
 
-
     .container-part-two .blog-info,
     .match-info {
         display: grid;
@@ -406,6 +405,10 @@ footer .icon-link ul a .filled:hover {
     .container-part-two .blogs-card,
     .match-card {
         width: 250px;
+    }
+
+    #football {
+        display: none;
     }
 
     .container-part-two .blogs-card img {
